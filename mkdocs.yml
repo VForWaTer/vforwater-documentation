@@ -1,14 +1,16 @@
-site_name: VForWater Documentation
+site_name: V-FOR-WaTer Documentation
 site_url: https://vforwater.github.io/vforwater-documentation/
-nav:
-  - Home: index.md
-  - About: about.md
-  - User Guide:
-      - Getting Started: user-guide/getting-started.md
-      - Installation: user-guide/installation.md
-      - Configuration: user-guide/configuration.md
-      - Advanced Usage: user-guide/advanced-usage.md
-theme: readthedocs
-
+theme: 
+    name: readthedocs
+    logo: assets/brand.png
 extra_css:
-  - assets/css/extra.css
+    - assets/css/extra.css
+
+nav:
+    - Home: index.md
+    - About: about.md
+    - User Guide:
+        - Getting Started: user-guide/getting-started.md
+        - Installation: user-guide/installation.md
+        - Configuration: user-guide/configuration.md
+        - Advanced Usage: user-guide/advanced-usage.md
