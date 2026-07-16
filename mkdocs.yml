@@ -1,4 +1,5 @@
 site_name: VForWater Documentation
+site_url: https://vforwater.github.io/vforwater-documentation/
 nav:
   - Home: index.md
   - About: about.md
