@@ -1,0 +1,13 @@
+site_name: VForWater Documentation
+nav:
+  - Home: index.md
+  - About: about.md
+  - User Guide:
+      - Getting Started: user-guide/getting-started.md
+      - Installation: user-guide/installation.md
+      - Configuration: user-guide/configuration.md
+      - Advanced Usage: user-guide/advanced-usage.md
+theme: readthedocs
+
+extra_css:
+  - extra.css
