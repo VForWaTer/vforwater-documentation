@@ -10,3 +10,11 @@ This is some video
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
+
+## Accessing the Portal and Logging in
+
+Information about urls and how to log in using credentials
+
+## Sections of the Portal
+
+Overview of the different parts of the vfw portal
