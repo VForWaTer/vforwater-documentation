@@ -1,8 +1,11 @@
 site_name: V-FOR-WaTer Documentation
 site_url: https://vforwater.github.io/vforwater-documentation/
 theme: 
-    name: readthedocs
-    logo: assets/brand.png
+    name: material
+    palette:
+        primary: 'black'
+        accent: 'teal'
+    logo: assets/V-FOR-WaTer favicon mittel.png
 extra_css:
     - assets/css/extra.css
 
