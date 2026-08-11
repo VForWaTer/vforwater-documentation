@@ -15,8 +15,11 @@ nav:
     - User Guide:
         - Getting Started: user-guide/getting-started.md
         - Accessing Data: user-guide/accessing-data.md
+        - Navigating through the Workspace: user-guide/workspace.md
         - Configuration: user-guide/configuration.md
         - Advanced Usage: user-guide/advanced-usage.md
+    - Toolbox:
+        - Toolbox Overview: toolbox/overview.md
     - Developers Guide:
         - Project Structure: user-guide/project-structure.md
         - Tools Architecture: user-guide/tools.md
