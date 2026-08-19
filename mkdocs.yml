@@ -63,7 +63,9 @@ nav:
       - Advanced Usage: user-guide/advanced-usage.md
 
   - Toolbox:
-      - Toolbox Overview: toolbox/overview.md
+      - Overview: toolbox/overview.md
+      - GIS Tools: toolbox/gis-tools.md
+      - Hydrological Tools: toolbox/hydrological-tools.md
 
   - Developers:
       - Project Structure: user-guide/project-structure.md
