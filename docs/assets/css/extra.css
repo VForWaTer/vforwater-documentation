@@ -201,19 +201,6 @@
     letter-spacing: -0.02em;
 }
 
-.vfw-hero p {
-    position: relative;
-    z-index: 1;
-
-    max-width: 650px;
-
-    margin: 0;
-
-    color: #315865;
-
-    font-size: 1.05rem;
-    line-height: 1.6;
-}
 
 /* ---------------------------------------------------------
    Homepage buttons
@@ -327,12 +314,21 @@
     padding: 4px;
 }
 
-.vfw-hero-lead {
-    max-width: 850px;
+.vfw-hero p {
+    position: relative;
+    z-index: 1;
+
+    max-width: 650px;
     margin: 0;
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 1.15rem;
-    line-height: 1.7;
+
+    color: #315865;
+
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+[data-md-color-scheme="slate"] .vfw-hero p {
+    color: #D8E9EB;
 }
 
 .vfw-highlight {
@@ -347,4 +343,125 @@
     display: block;
     margin-bottom: 0.4rem;
     font-size: 1.1rem;
+}
+
+/* =========================================================
+   Dark mode refinements
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   Cards
+   --------------------------------------------------------- */
+
+[data-md-color-scheme="slate"] .vfw-card {
+    background: #102F3A;
+    border-color: #28515D;
+}
+
+[data-md-color-scheme="slate"] .vfw-card:hover {
+    box-shadow:
+        0 6px 20px rgba(0, 0, 0, 0.30);
+}
+
+
+/* ---------------------------------------------------------
+   Card headings and icons
+   --------------------------------------------------------- */
+
+[data-md-color-scheme="slate"] .vfw-card h3 {
+    color: #FFFFFF;
+}
+
+[data-md-color-scheme="slate"] .vfw-card h3 .twemoji {
+    color: var(--vfw-teal-light);
+}
+
+
+/* ---------------------------------------------------------
+   Links inside cards
+   --------------------------------------------------------- */
+
+[data-md-color-scheme="slate"] .vfw-card a {
+    color: var(--vfw-teal-light);
+}
+
+[data-md-color-scheme="slate"] .vfw-card a:hover {
+    color: #FFFFFF;
+}
+
+
+/* ---------------------------------------------------------
+   Workflow
+   --------------------------------------------------------- */
+
+[data-md-color-scheme="slate"] .vfw-workflow-step {
+    background: #173F4B;
+    color: #FFFFFF;
+}
+
+[data-md-color-scheme="slate"] .vfw-workflow-arrow {
+    color: var(--vfw-teal-light);
+}
+
+
+/* ---------------------------------------------------------
+   Highlight box
+   --------------------------------------------------------- */
+
+[data-md-color-scheme="slate"] .vfw-highlight {
+    background: #102F3A;
+    border-left-color: var(--vfw-teal-light);
+    color: #FFFFFF;
+}
+
+[data-md-color-scheme="slate"] .vfw-highlight strong {
+    color: #FFFFFF;
+}
+
+
+/* ---------------------------------------------------------
+   Hero
+   --------------------------------------------------------- */
+
+[data-md-color-scheme="slate"] .vfw-hero {
+    background: linear-gradient(
+        135deg,
+        #102F3A,
+        #173F4B
+    );
+
+    border-color: #28515D;
+}
+
+[data-md-color-scheme="slate"] .vfw-hero h1 {
+    color: #FFFFFF;
+}
+
+[data-md-color-scheme="slate"] .vfw-hero p,
+[data-md-color-scheme="slate"] .vfw-hero-lead {
+    color: #D8E9EB;
+}
+
+
+/* ---------------------------------------------------------
+   Hero background logo
+   --------------------------------------------------------- */
+
+[data-md-color-scheme="slate"] .vfw-hero::after {
+    opacity: 0.20;
+}
+
+
+/* ---------------------------------------------------------
+   Buttons
+   --------------------------------------------------------- */
+
+[data-md-color-scheme="slate"] .md-button {
+    border-color: var(--vfw-teal-light);
+}
+
+[data-md-color-scheme="slate"] .md-button:hover {
+    background: var(--vfw-teal-light);
+    color: #0D2E3A;
 }
