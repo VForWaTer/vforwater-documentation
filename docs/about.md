@@ -14,7 +14,7 @@ and research workflows in a common digital environment. The goal is that researc
 Environmental datasets from different sources, including
 state offices and university research projects. 
 
-<a href="user-guide/accessing-data">Access data →</a>
+<a href="../user-guide/accessing-data/">Access data →</a>
 
 </div>
 
@@ -27,7 +27,7 @@ state offices and university research projects.
 Use computational tools for data processing, analysis,
 and environmental modelling.
 
-<a href="toolbox/overview">Explore tools →</a>
+<a href="../toolbox/overview/">Explore tools →</a>
 
 </div>
 
@@ -40,7 +40,7 @@ and environmental modelling.
 Combine data, tools, and processing steps into configurable
 and reusable research workflows.
 
-<a href="user-guide/workspace">Explore the workspace →</a>
+<a href="../user-guide/workspace/">Explore the workspace →</a>
 
 </div>
 
@@ -53,7 +53,7 @@ and reusable research workflows.
 Keep workflows, tools, and data together to support
 transparent and reproducible scientific analyses.
 
-<a href="user-guide/advanced-usage">Learn more →</a>
+<a href="../user-guide/advanced-usage/">Learn more →</a>
 
 </div>
 
@@ -162,7 +162,7 @@ and workflows to support transparent and reusable research.
 Start with the basics and learn how to navigate
 the environment.
 
-<a href="user-guide/getting-started/">Get started →</a>
+<a href="../user-guide/getting-started/">Get started →</a>
 
 </div>
 
@@ -173,7 +173,7 @@ the environment.
 Browse the available computational tools and learn
 how they can be used in your research.
 
-<a href="toolbox/overview/">Explore the toolbox →</a>
+<a href="../toolbox/overview/">Explore the toolbox →</a>
 
 </div>
 
@@ -184,7 +184,7 @@ how they can be used in your research.
 Learn how tools are structured, packaged, and
 integrated into V-FOR-WaTer.
 
-<a href="user-guide/project-structure/">For developers →</a>
+<a href="../user-guide/project-structure/">For developers →</a>
 
 </div>
 
@@ -197,6 +197,7 @@ Excited about V-FOR-WaTer?
 
 [Explore the Portal](https://portal.vforwater.de/home/){ .md-button target="_blank" }
 
+
 <!--
 ## How does a typical workflow look like?
 
@@ -204,7 +205,7 @@ Usually you will follow a find-manipulate-visualize-download workflow.
 
 - Find a suitable dataset in your region of interest and scan through the different data types.
 
-- Manipulate the dataset in your personal workbench. Scale it to the resolution and extend you need. Apply common tools to gain first insight into your dataset.
+- Manipulate the dataset in your personal workbench. Scale it to the resolution and extent you need. Apply common tools to gain first insight into your dataset.
 
 - Visualization will foster and aid this process. V-FOR-WaTer offers a powerful and fully customizable visualization tool.
 
