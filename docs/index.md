@@ -16,3 +16,15 @@ computational tools, and reproducible research.
 [Explore the Portal](https://portal.vforwater.de/home/){ .md-button target="_blank" }
 
 
+<div class="vfw-location">
+
+<h2>
+Developed with <span class="vfw-heart">♥</span> in Karlsruhe
+</h2>
+
+
+<div id="vfw-map"></div>
+
+</div>
+
+

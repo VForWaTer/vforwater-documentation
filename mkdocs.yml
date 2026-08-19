@@ -48,6 +48,11 @@ markdown_extensions:
 
 extra_css:
   - assets/css/extra.css
+  - https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
+
+extra_javascript:
+  - https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
+  - assets/js/map.js
 
 nav:
   - Home: index.md
