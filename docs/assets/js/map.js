@@ -19,13 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     ).addTo(map);
 
-    const marker = L.marker(
-        [49.0069, 8.4037]
-    ).addTo(map);
-
-    marker.bindPopup(
-        "<strong>V-FOR-WaTer</strong><br>" +
-        "Karlsruhe, Germany"
-    ).openPopup();
+    L.marker([49.0069, 8.4037]).addTo(map);
 
 });
