@@ -1,4 +1,4 @@
-# Welcome to V-FOR-WaTer
+# Solving problems together
 
 <div class="vfw-hero">
 
