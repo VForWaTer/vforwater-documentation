@@ -1,28 +1,69 @@
 site_name: V-FOR-WaTer Documentation
 site_url: https://vforwater.github.io/vforwater-documentation/
-theme: 
-    name: material
-    palette:
-        primary: 'black'
-        accent: 'teal'
-    logo: assets/V-FOR-WaTer favicon mittel.png
+repo_url: https://github.com/VForWaTer/vforwater-documentation
+
+theme:
+  name: material
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  logo: assets/V4logo.png
+  favicon: assets/V-FOR-WaTer favicon mittel.png
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.code.copy
+
+  icon:
+    repo: fontawesome/brands/github
+
 extra_css:
-    - assets/css/extra.css
+  - assets/css/extra.css
 
 nav:
-    - Home: index.md
-    - About: about.md
-    - User Guide:
-        - Getting Started: user-guide/getting-started.md
-        - Accessing Data: user-guide/accessing-data.md
-        - Navigating through the Workspace: user-guide/workspace.md
-        - Configuration: user-guide/configuration.md
-        - Advanced Usage: user-guide/advanced-usage.md
-    - Toolbox:
-        - Toolbox Overview: toolbox/overview.md
-    - Developers Guide:
-        - Project Structure: user-guide/project-structure.md
-        - Tools Architecture: user-guide/tools.md
-        - How to add tools: user-guide/adding-tools.md
-    - How to Cite: how-to-cite.md
-    - Contact: contact.md
+  - Home: index.md
+
+  - About:
+      - V-FOR-WaTer: about.md
+
+  - User Guide:
+      - Getting Started: user-guide/getting-started.md
+      - Accessing Data: user-guide/accessing-data.md
+      - Navigating through the Workspace: user-guide/workspace.md
+      - Configuration: user-guide/configuration.md
+      - Advanced Usage: user-guide/advanced-usage.md
+
+  - Toolbox:
+      - Toolbox Overview: toolbox/overview.md
+
+  - Developers:
+      - Project Structure: user-guide/project-structure.md
+      - Tools Architecture: user-guide/tools.md
+      - How to add tools: user-guide/adding-tools.md
+
+  - Resources:
+      - How to Cite: how-to-cite.md
+      - Contact: contact.md
